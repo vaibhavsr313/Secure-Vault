@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "436764296074",
+    "firebase_url": "https://password-d872f-default-rtdb.firebaseio.com",
+    "project_id": "password-d872f",
+    "storage_bucket": "password-d872f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436764296074:android:d837c22ad52a66ad2b7e73",
+        "android_client_info": {
+          "package_name": "com.example.vaibhav"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0Qz7OPZo-yg0Qm5tuQR-hrfP0vZ4tWsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

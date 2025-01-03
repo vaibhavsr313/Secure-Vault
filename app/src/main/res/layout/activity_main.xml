@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="343dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/roundbtn"
+        android:clickable="true"
+        android:drawableStart="@drawable/baseline_login_24"
+        android:drawablePadding="-10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+
+        android:text="Login"
+        android:textColor="#FEFEFE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="318dp"
+        android:layout_height="66dp"
+        android:background="@drawable/roundtext"
+        android:drawableStart="@drawable/baseline_fingerprint_24"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Password (min 6 characters)"
+        android:inputType="textPassword"
+        android:longClickable="false"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.524" />
+
+    <TextView
+        android:id="@+id/plantdescr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginEnd="58dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Login to your Account"
+        android:textColor="#FEFEFE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="203dp"
+        android:layout_height="205dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078"
+        app:srcCompat="@drawable/login"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/FingerPrint"
+        android:layout_width="114dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
+        app:srcCompat="@drawable/finger" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="317dp"
+        android:layout_height="69dp"
+        android:background="@drawable/roundtext"
+        android:drawableLeft="@drawable/baseline_email_"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
